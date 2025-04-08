@@ -41,3 +41,17 @@ let removeGrocery = shoppingCart.pop();
 
 console.log(shoppingCart);
 console.log("removed Grocery:", removeGrocery);
+
+//For loop demonstration
+let fruits = ["Apples", "Oranges", "Plums"];
+for (let index = 0; index < fruits.length; index++ ){
+    console.log(`Jose ate ${fruits[index]}`);
+}
+
+//Break Down For Loop exercise
+let party = ["Leader", "Knight", "Brawler", "Mage", "Healer"];
+for (let member = 0; member < party.length; member++){
+    console.log(`Initialized value is ${party[member]}`);
+    console.log(`condition met`);
+    console.log(`After iterator, initialized value is ${party[member]}`);
+}
