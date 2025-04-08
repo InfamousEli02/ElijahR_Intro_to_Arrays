@@ -31,3 +31,13 @@ groceryList[6] = "Chicken";
 console.log(groceryList);
 console.log(groceryList.length);
 
+//Sarah's Grocery Store Shopping Cart exercise
+shoppingCart = [];
+
+let addGrocery = shoppingCart.push("Bread", "Milk", "Eggs");
+console.log(shoppingCart);
+
+let removeGrocery = shoppingCart.pop();
+
+console.log(shoppingCart);
+console.log("removed Grocery:", removeGrocery);
